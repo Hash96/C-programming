@@ -11,7 +11,7 @@ void arr(int x)
        scanf("%d",&arr2[i]);
        arr3[i]=arr1[i]+arr2[i];
     }
-    printf("\nSum of your parallel Elements of both arrays is : ");
+    printf("\nSum of your parallel Elements of both arrays is like this: ");
     for(i=0;i<x;i++)
         printf("\t%d ",arr3[i]);
     printf("\n");
